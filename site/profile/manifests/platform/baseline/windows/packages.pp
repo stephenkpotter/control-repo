@@ -6,7 +6,7 @@ class profile::platform::baseline::windows::packages {
   }
 
   #package { 'notepadplusplus': }
-  package { '7zip': }
+  #package { '7zip': }
   package { 'git': }
   package { 'uniextract': }
   package { 'firefox': }
