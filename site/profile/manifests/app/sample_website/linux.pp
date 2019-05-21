@@ -56,9 +56,9 @@ class profile::app::sample_website::linux (
     content => epp('profile/app/404.html.epp'),
   }
   
- # user { "stephen":
-  #  ensure => present,
-  #}
+  user { "stephen":
+    ensure => present,
+  }
 
   user { "shane":
     ensure => present,
