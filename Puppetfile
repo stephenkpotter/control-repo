@@ -127,3 +127,4 @@ mod 'netstat',
 mod 'distelli',
   :git => 'https://github.com/puppetlabs/puppetlabs-distelli_agent.git',
   :tag => '0.1.2'
+ 
